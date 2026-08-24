@@ -1,7 +1,7 @@
 local pve = _G["PVEFrame"]
 local frame = CreateFrame("Frame", "WeeklyVaultCucc")
 --                  1      2            3            4              5               6          7               8              9           10
-local vaultILvl = { 0, '250 (259H)', '250 (259H)', '253 (263H)', '256 (263H)', '259 (266H)', '259 (269H)', '263 (269H)', '263 (269H)', '266 (272M)' }
+local vaultILvl = { 0, '295 (305H)', '295 (305H)', '298 (308H)', '302 (308H)', '305 (311H)', '305 (315H)', '308', '308 (315H)', '311 (318M)' }
 
 frame:RegisterEvent("PLAYER_ENTERING_WORLD")
 frame:RegisterEvent("CHALLENGE_MODE_COMPLETED")
